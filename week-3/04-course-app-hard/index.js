@@ -10,8 +10,8 @@ const user_secret = "sec_dfre12";
 const admin_secret = "rew_dsfi";
 
 // Connect to the database
-username = "nayakvinayak95";
-password = "dratini70"
+username = "";
+password = ""
 mongoose.connect(`mongodb+srv://${username}:${password}@cluster0.wwcnagn.mongodb.net/`)
 
 // Define schemas for admins, users, courses and user purchases
